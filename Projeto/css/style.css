@@ -1,0 +1,560 @@
+body{
+    background-image: url(../imagens/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+/* Área cabeçalho */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: gray; 
+    position: fixed;
+    z-index: 999;
+}
+
+#containerHead {
+    width: 1250px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#containerLogo{
+    height: inherit;
+    width: 100px;
+/*    background-color: darkcyan;*/
+    float: left;
+}
+#containerMenu{
+    height:inherit;
+    width: 800px;
+/*    background-color: black;*/
+    float: left;
+}
+#containerLogin{
+    height: inherit;
+    width: 350px;
+/*    background-color: aquamarine;*/
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#logo{
+    width: 90px;
+    height: 58px;
+    background-color: white;
+    margin-top: 1px;
+}
+
+#menu {
+    width: 770px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.itemMenu{
+    width: 105px;
+    height: 40px;
+    background-color: black;
+    float: left;
+    margin-top: 5px;
+    margin-left: 4.4px;
+    color: white;
+    font-size: 14px;
+    padding: 2px;
+    padding-top: 12px;
+    font-family: aerial;
+    border-radius: 7px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+
+.itemMenu:hover {
+    background-color:darkgray;
+}
+
+#nome, #senha{
+    height: 60px;
+    width: 120px;
+    margin-right: 10px;
+    float: left;
+    font-size: 18px;
+    font-family: aerial;
+    color: white;
+}
+
+
+#caixaNome, #caixaSenha{
+    height: 15px;
+    width: 120px;
+}
+
+#botao{
+    margin-top: 16px;
+    width: 50px;
+    height: 10px;
+    float: left;
+}
+
+#caixaBotao{
+    width: 40px;
+}
+
+/* Padronização */
+
+.tituloPaginas{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    color: white;
+/*    background-color: aqua;*/
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.containerConteudo{
+    width: 1250px;
+    min-height: 800px;
+    height: auto;
+/*    background-color: aqua;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.conteudo{
+    width: inherit;
+    min-height: 800px;
+    height: auto;
+    display: flex;
+    background-color: rgb(0,0,0,0.7);
+/*    background-color: firebrick;*/
+}
+
+.conteudoSecundario{
+    width: inherit;
+    min-height: 800px;
+    height: auto;
+/*    display: flex;*/
+    background-color: rgb(0,0,0,0.7);
+/*    background-color: firebrick;*/
+}
+
+.espaco{
+    padding-top: 60px;
+}
+
+#containerSessaoSobre{
+    width: inherit;
+    min-height:300px;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.containerSessao{
+    width: inherit;
+    min-height:300px;
+    height: auto;
+    padding: 20px;
+    
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
+/* área conteúdo home */
+
+#slider{
+    width: inherit;
+    padding-top: 60px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+#containerItens{
+    width: 250px;
+    min-height: 800px;
+    max-height: auto;
+    float: left;
+/*    background-color: blue;*/
+}
+
+#containerCards{
+    width: 1000px;
+    min-height: 800px;
+    max-height: auto;
+    float: left;
+/*    background-color: cadetblue;*/
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.itens{
+    width: inherit;
+    height: 30px;
+    background-color: gray;
+    border: black 1px solid;
+    color: white;
+    text-align: center;
+    padding-top:6px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    
+}
+.itens:hover{
+    background-color:dimgray;
+    cursor: pointer;
+}
+
+.cardsItens{
+    width: 300px;
+    margin-left: 10px;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: white;
+    float: left;
+}
+
+.cardImagem {
+    width: 130px;
+    height: 140px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.cardTexto {
+    width: 290px;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: aerial;
+}
+
+.cardDetalhes {
+    width: 65px;
+    height: 15px;
+/*    background-color: bisque;*/
+    margin-left: auto;
+}
+
+/* área do conteudo sobre a empresa */
+
+#tituloSobre{
+    width: 100%;
+    height: 50px;
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+/*    background-color: aquamarine;*/
+}
+
+#textoSobre {
+    width: 1200px;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+/*    background-color: black;*/
+    text-align: center;
+    line-height: 1.5;
+}
+
+.textoPadrao{
+    width: 30%;
+    margin-left: 25px;
+    min-height: 200px;
+    height: auto;
+    font-size: 16px;
+    font-family: verdana;
+    color: white;
+    float: left;
+    text-align: center;
+/*    background-color: darkblue;*/
+}
+
+#imagemEmpresa{
+    width: 1200px;
+    height: 600px;
+    background-image: url(../imagens/padaria.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#textoEmpresa{
+    min-height: 250px;
+    height: auto;
+    width: 500px;
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+/*    background-color: firebrick;*/
+    line-height: 1.1;
+}
+
+.caixasMenores{
+    width: 300px;
+    min-height: 250px;
+    height: auto;
+    float: left;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    line-height: 1.1;
+/*    background-color: aqua;*/
+}
+
+#subtitulo{
+    height: 40px;
+    width:inherit;
+    font-size: 18px;
+    
+}
+
+#textoSub{
+    min-height: 60px;
+    height: auto;
+    width: inherit;
+    line-height: 1.1;
+}
+
+#imagemDoce{
+    width: 285px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 250px;
+    border: solid white 1px;
+    background-image: url(../imagens/doce.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* área do conteudo lojas */
+    
+
+.imagemLoja{
+    width: 30%;
+    height: 300px;
+/*    background-color: aqua;*/
+    margin-right: 20px;
+    float: left;
+}
+
+.imagemLoja > img{
+    width: 100%;
+    height:inherit; 
+}
+
+.descricaoLoja{
+    width: 30%;
+    min-height: 300px;
+    height: auto;
+/*    background-color: aquamarine;*/
+    color: white;
+    line-height: 1.5;
+    font-family: verdana;
+    margin-right: 20px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+
+.localizacaoLoja{
+    width: 30%;
+    height: 300px;
+/*    background-color: mediumaquamarine;*/
+    color: white;
+    font-size: 16px;
+    float: left;
+}
+
+.localizacao{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding-top: 6px;
+    box-sizing: border-box;
+/*    background-color: black;    */
+}
+
+
+/* área do conteudo promoções */
+
+.precoAntigo{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.precoNovo{
+    text-decoration: none;
+    color: red;
+}
+
+
+.containerSessaoPromocao{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height:300px;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+
+/* área do conteudo destaque do mês */
+
+#tituloDestaque{
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: comic sans ms;
+    font-size: 22px;
+    text-align: center;
+}
+
+#imagemDestaque{
+    width: 500px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+
+#historiaDestaque{
+    width: inherit;
+    min-height: 300px;
+    height: auto;
+    color: white;
+    font-family: cursive;
+}
+
+#tituloHistoria{
+    width: inherit;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#textoHistoria{
+    width: inherit;
+    min-height: 250px;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#imagemDestaque > img{
+    width: 500px;
+    height: 400px;
+}
+
+/* Area do rodapé */
+
+footer {
+    width: 1250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;  
+/*    display: flex;*/
+}
+#sistemaInterno {
+    width: 250px;
+    height: inherit;
+    text-align: center;
+    float: left;
+    padding-top: 50px;
+    box-sizing: border-box;
+/*    background-color: aquamarine;*/
+    margin-right: 70px;
+}
+
+#endereco {
+    width: 500px;
+    height: inherit;
+    text-align: center;
+    float: left;
+    padding-top: 100px;
+    box-sizing: border-box;
+/*    background-color: aqua;*/
+}
+
+#aplicativo {
+    width: 300px;
+    height: inherit;
+    text-align: center;
+    float: right;
+    padding-top: 30px;
+    box-sizing: border-box;
+/*    background-color: darkgoldenrod;*/
+}
+
+#imagem {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 30px;
+    background-color: white;
+}
+
+#botaoBaixar{
+    width: 100px;
+    height: 23px;
+    margin-top: 30px;
+    float: left;
+/*    background-color: brown;*/
+}
+
+#botaoSistema, #botaoApp{
+    height: 50px;
+    font-size: 18px;
+    
+}
+
+
+
+/* Redes sociais */
+
+#containerRedesSociais {
+    width: 50px;
+    height: 150px;
+/*    background-color: cadetblue;*/
+/*    float: left;*/
+    
+    position: fixed;
+    margin-left: 1250px;
+}
+
+.logoSocial{
+    width: 50px;
+    height: 50px;
+}

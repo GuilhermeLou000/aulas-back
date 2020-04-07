@@ -1,0 +1,292 @@
+body{
+    background-image: url(../imagens/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+/* Área cabeçalho */
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: gray; 
+    position: fixed;
+    z-index: 999;
+}
+
+#containerHead {
+    width: 1250px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#containerLogo{
+    height: inherit;
+    width: 100px;
+/*    background-color: darkcyan;*/
+    float: left;
+}
+#containerMenu{
+    height:inherit;
+    width: 800px;
+/*    background-color: black;*/
+    float: left;
+}
+#containerLogin{
+    height: inherit;
+    width: 350px;
+/*    background-color: aquamarine;*/
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#logo{
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    margin-top: 8px;
+}
+
+#menu {
+    width: 770px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.itemMenu{
+    width: 105px;
+    height: 40px;
+    background-color: black;
+    float: left;
+    margin-top: 5px;
+    margin-left: 4.4px;
+    color: white;
+    font-size: 14px;
+    padding: 2px;
+    padding-top: 10px;
+    font-family: aerial;
+    border-radius: 7px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+
+.itemMenu:hover {
+    background-color:darkgray;
+}
+
+#nome, #senha{
+    height: 60px;
+    width: 120px;
+    margin-right: 10px;
+    float: left;
+    font-size: 18px;
+    font-family: aerial;
+    color: white;
+}
+
+
+#caixaNome, #caixaSenha{
+    height: 15px;
+    width: 120px;
+}
+
+#botao{
+    margin-top: 16px;
+    width: 50px;
+    height: 10px;
+    float: left;
+}
+
+#caixaBotao{
+    width: 40px;
+}
+
+/* área conteúdo */
+
+
+
+#containerConteudo{
+    width: 1250px;
+    min-height: 800px;
+    max-height: auto;
+/*    background-color: aqua;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#slider{
+    width: inherit;
+    padding-top: 60px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+#conteudo{
+    width: inherit;
+    min-height: 800px;
+    max-height: auto;
+    display: flex;
+    background-color: rgb(0,0,0,0.7);
+/*    background-color: firebrick;*/
+}
+
+#containerItens{
+    width: 250px;
+    min-height: 800px;
+    max-height: auto;
+    float: left;
+/*    background-color: blue;*/
+}
+
+#containerCards{
+    width: 1000px;
+    min-height: 800px;
+    max-height: auto;
+    float: left;
+/*    background-color: cadetblue;*/
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.itens{
+    width: inherit;
+    height: 30px;
+    background-color: gray;
+    border: black 1px solid;
+    color: white;
+    text-align: center;
+    padding-top:6px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    
+}
+.itens:hover{
+    background-color:dimgray;
+    cursor: pointer;
+}
+
+.cardsItens{
+    width: 300px;
+    margin-left: 10px;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: white;
+    float: left;
+}
+
+.cardImagem {
+    width: 130px;
+    height: 140px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.cardTexto {
+    width: 290px;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: aerial;
+}
+
+.cardDetalhes {
+    width: 65px;
+    height: 15px;
+/*    background-color: bisque;*/
+    margin-left: auto;
+}
+
+/* Area do rodapé */
+
+footer {
+    width: 1250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;    
+}
+
+#sistemaInterno {
+    width: 250px;
+    height: inherit;
+    text-align: center;
+    float: left;
+    padding-top: 50px;
+    box-sizing: border-box;
+/*    background-color: aquamarine;*/
+    margin-right: 70px;
+}
+
+#endereco {
+    width: 500px;
+    height: inherit;
+    text-align: center;
+    float: left;
+    padding-top: 100px;
+    box-sizing: border-box;
+/*    background-color: aqua;*/
+}
+
+#aplicativo {
+    width: 300px;
+    height: inherit;
+    text-align: center;
+    float: right;
+    padding-top: 30px;
+    box-sizing: border-box;
+/*    background-color: darkgoldenrod;*/
+}
+
+#imagem {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 30px;
+    background-color: white;
+}
+
+#botaoBaixar{
+    width: 100px;
+    height: 23px;
+    margin-top: 30px;
+    float: left;
+/*    background-color: brown;*/
+}
+
+#botaoSistema, #botaoApp{
+    height: 50px;
+    font-size: 18px;
+    
+}
+
+/* Redes sociais */
+
+#containerRedesSociais {
+    width: 50px;
+    height: 150px;
+/*    background-color: cadetblue;*/
+    float: left;
+    margin-top: -800px;
+    position: fixed;
+    margin-left: 1576px;
+}
+
+.logoSocial{
+    width: 50px;
+    height: 50px;
+}
